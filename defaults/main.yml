@@ -2,6 +2,8 @@
 # Default variables
 # =================
 
+fail2ban_install_packages: true
+
 # .. contents:: Sections
 #    :local:
 #
