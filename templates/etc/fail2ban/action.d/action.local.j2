@@ -3,6 +3,7 @@
 [Definition]
 
 actionstart = {{ item.start | d('') | indent(14) }}
+actionstart_on_demand = {{ item.start_on_demand | d('true') | indent(14) }}
 
 actionstop = {{ item.stop | d('') | indent(13) }}
 
