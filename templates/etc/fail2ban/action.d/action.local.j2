@@ -2,6 +2,8 @@
 
 [Definition]
 
+allowipv6 = {{ item.allowipv6 | d('true') | indent(14) }}
+
 actionstart = {{ item.start | d('') | indent(14) }}
 actionstart_on_demand = {{ item.start_on_demand | d('true') | indent(14) }}
 
