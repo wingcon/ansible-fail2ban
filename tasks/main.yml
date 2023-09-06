@@ -24,7 +24,7 @@
     dest: '/etc/fail2ban/jail.conf'
     regexp: '^(enabled  = )true'
     line: '\1false'
-    backrefs: yes
+    backrefs: true
   notify: [ 'Reload fail2ban jails' ]
 
 - name: Install custom fail2ban rule files
